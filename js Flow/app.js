@@ -13,8 +13,8 @@ var style = document.getElementById("styleLink")
 
 function night(){
     
-  style.href = "/styling/night.css"
-    logo.src = "/images/logo 1 (2).png";
+  style.href = "./styling/night.css"
+    logo.src = "./images/logo 1 (2).png";
     raat.style.display = "none"
     din.style.display = "flex"
 }
@@ -22,7 +22,7 @@ function day(){
     document.body.style.backgroundColor = ""
     document.body.style.color = ""
 
-    logo.src = "/images/logo 1 (1).png";
+    logo.src = "./images/logo 1 (1).png";
     style.href = ""
     din.style.display = "none"
     raat.style.display = "flex"
@@ -32,8 +32,8 @@ function day(){
 
 function raaat(){
     
-    logo.src = "/images/logo 1 (2).png";
-    style.href = "/styling/night.css"
+    logo.src = "./images/logo 1 (2).png";
+    style.href = "./styling/night.css"
     niight.style.display = "none"
     daay.style.display = "flex"
 }
@@ -41,7 +41,7 @@ function diin(){
     document.body.style.backgroundColor = ""
     document.body.style.color = ""
 
-    logo.src = "/images/logo 1 (1).png";
+    logo.src = "./images/logo 1 (1).png";
     style.href = ""
     daay.style.display = "none"
     niight.style.display = "flex"
