@@ -1012,10 +1012,10 @@ section.sec8 form input{
 }
 
 /* desktop */
-@media screen and (min-width: 1024px){
+/* @media screen and (min-width: 1024px){
     body{
-       /* background-color: rgb(255, 255, 255);  */
+       
        color: rgb(241, 0, 0);
     }
-}
+} */
 
